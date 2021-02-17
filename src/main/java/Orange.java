@@ -1,2 +1,6 @@
-public class Orange {
+public class Orange extends Fruit{
+    private static final float WEIGHT = 1.5f;
+    public Orange() {
+        super(WEIGHT);
+    }
 }
